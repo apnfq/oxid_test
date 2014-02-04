@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2014-02-04 08:07:02
+<?php /* Smarty version 2.6.26, created on 2014-02-04 14:50:55
          compiled from inc_error.tpl */ ?>
 
     <?php if (count ( $this->_tpl_vars['Errors']['default'] ) > 0): ?>

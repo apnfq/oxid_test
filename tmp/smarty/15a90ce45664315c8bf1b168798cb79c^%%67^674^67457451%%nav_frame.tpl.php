@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2014-02-04 08:06:37
+<?php /* Smarty version 2.6.26, created on 2014-02-04 14:50:50
          compiled from nav_frame.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'oxmultilang', 'nav_frame.tpl', 5, false),)), $this); ?>

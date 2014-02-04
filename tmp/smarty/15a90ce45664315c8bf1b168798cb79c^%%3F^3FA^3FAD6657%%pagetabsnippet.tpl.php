@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2014-02-04 08:07:02
+<?php /* Smarty version 2.6.26, created on 2014-02-04 14:50:55
          compiled from pagetabsnippet.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'cat', 'pagetabsnippet.tpl', 16, false),array('modifier', 'default', 'pagetabsnippet.tpl', 27, false),array('function', 'oxmultilang', 'pagetabsnippet.tpl', 34, false),)), $this); ?>

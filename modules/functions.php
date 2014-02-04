@@ -24,3 +24,4 @@
 /**
  * Add custom functions here.
  */
+require_once( dirname(__FILE__).DIRECTORY_SEPARATOR."Nfq".DIRECTORY_SEPARATOR."Autoloader.php" );
