@@ -9,10 +9,10 @@ $sMetadataVersion = '1.1';
  * Module information
  */
 $aModule = array(
-    'id' => 'NfqModule',
+    'id' => 'nfqhotoffer',
     'title' => 'Hot Offer',
     'description' => '',
-    'thumbnail' => '',
+    'thumbnail' => 'thumb.png',
     'version' => '1.0.0',
     'author' => 'NFQ',
     'url' => 'http://www.nfq.lt',
@@ -22,6 +22,7 @@ $aModule = array(
     ),
     'templates' => array(
         'nfq_hot_offer_admin.tpl' => 'nfq/hotoffer/views/admin/tpl/nfq_hot_offer_admin.tpl',
+        'details/inc/productmain.tpl' => 'nfq/hotoffer/views/tpl/details/inc/productmain.tpl'
     ),
     'events' => array(
         'onActivate' => 'Installer::onActivate',
@@ -29,5 +30,8 @@ $aModule = array(
     ),
     'files' => array(
         'Installer' => 'Nfq/NfqModule/Installer.php'
+    ),
+    'blocks' => array(
+        array('template' => 'page/details/inc/productmain.tpl', 'block' => 'details_productmain_zoom', 'file' => 'views/tpl/details/inc/productmain.tpl')
     )
 );
