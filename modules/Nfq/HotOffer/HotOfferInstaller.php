@@ -15,7 +15,7 @@
  *
  */
 
-class Installer
+class HotOfferInstaller
 {
 
     /**

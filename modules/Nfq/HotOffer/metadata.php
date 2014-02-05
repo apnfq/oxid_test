@@ -28,11 +28,11 @@ $aModule = array(
 
     ),
     'events' => array(
-        'onActivate' => 'Installer::onActivate',
-        'onDeactivate' => 'Installer::onDeactivate'
+        'onActivate' => 'HotOfferInstaller::onActivate',
+        'onDeactivate' => 'HotOfferInstaller::onDeactivate'
     ),
     'files' => array(
-        'Installer' => 'Nfq/NfqModule/Installer.php'
+        'HotOfferInstaller' => 'Nfq/HotOffer/HotOfferInstaller.php'
     ),
     'blocks' => array(
         array('template' => 'page/details/inc/productmain.tpl', 'block' => 'details_productmain_zoom', 'file' => 'views/tpl/details/inc/productmain.tpl'),
