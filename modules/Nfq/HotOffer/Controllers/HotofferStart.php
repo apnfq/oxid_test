@@ -1,10 +1,20 @@
 <?php
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/**
+* @copyright C UAB NFQ Solutions 2014
+*
+* This Software is the property of NFQ Solutions
+* and is protected by copyright law – it is NOT Freeware.
+*
+* Any unauthorized use of this software without a valid license key
+* is a violation of the license agreement and will be prosecuted by
+* civil and criminal law.
+*
+* Contact UAB NFQ Solutions:
+* E-mail: info@nfq.lt
+* http://www.nfq.lt
+*
+*/
 
 class Nfq_HotOffer_Controllers_HotOfferStart extends Nfq_HotOffer_Controllers_HotOfferStart_parent
 {
