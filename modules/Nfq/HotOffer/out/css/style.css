@@ -1,6 +1,5 @@
 
 div.hot-overlay {
-    background: FF0000!important;
     height: 64px;
     width: 64px;
     left: 15px;
@@ -12,4 +11,12 @@ div.hot-overlay {
 .detailsInfo .picture {
     z-index: 1;
     /*position: absolute;*/
+}
+
+.productData .hot-overlay {
+    position: relative;
+    float: left;
+    margin-right: -63px;
+    top: 0;
+    left: 0;
 }

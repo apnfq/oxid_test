@@ -22,7 +22,7 @@ $aModule = array(
     ),
     'templates' => array(
         'nfq_hot_offer_admin.tpl' => 'nfq/hotoffer/views/admin/tpl/nfq_hot_offer_admin.tpl',
-        'details/inc/productmain.tpl' => 'nfq/hotoffer/views/tpl/details/inc/productmain.tpl'
+
     ),
     'events' => array(
         'onActivate' => 'Installer::onActivate',
@@ -32,6 +32,8 @@ $aModule = array(
         'Installer' => 'Nfq/NfqModule/Installer.php'
     ),
     'blocks' => array(
-        array('template' => 'page/details/inc/productmain.tpl', 'block' => 'details_productmain_zoom', 'file' => 'views/tpl/details/inc/productmain.tpl')
+        array('template' => 'page/details/inc/productmain.tpl', 'block' => 'details_productmain_zoom', 'file' => 'views/tpl/details/inc/productmain.tpl'),
+        array('template' => 'widget/product/list.tpl', 'block' => 'hot_offer_overlay', 'file' => 'views/tpl/widget/product/list.tpl'),
+        array('template' => 'widget/product/list.tpl', 'block' => 'hot_offer_css', 'file' => 'views/tpl/widget/product/list_css.tpl'),
     )
 );
