@@ -24,6 +24,7 @@ $aModule = array(
     ),
     'templates' => array(
         'nfq_hot_offer_admin.tpl' => 'nfq/hotoffer/views/admin/tpl/nfq_hot_offer_admin.tpl',
+        'nfq_hotoffer_front.tpl' => 'nfq/hotoffer/views/tpl/shop/nfq_hotoffer_front.tpl',
 
     ),
     'events' => array(
@@ -38,5 +39,6 @@ $aModule = array(
         array('template' => 'widget/product/list.tpl', 'block' => 'hot_offer_overlay', 'file' => 'views/tpl/widget/product/list.tpl'),
         array('template' => 'widget/product/list.tpl', 'block' => 'hot_offer_css', 'file' => 'views/tpl/widget/product/list_css.tpl'),
         array('template' => 'page/shop/start.tpl', 'block' => 'hot_offer_homepage', 'file' => 'views/tpl/shop/start.tpl'),
+        array('template' => 'widget/header/categorylist.tpl', 'block' => 'hot_offer_link', 'file' => 'views/tpl/widget/header/categorylist.tpl'),
     )
 );

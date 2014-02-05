@@ -1,5 +1,3 @@
-[{ $smarty.block.parent }]
-
 [{oxscript add="$('a.js-external').attr('target', '_blank');"}]
 [{oxscript include="js/widgets/oxarticlebox.js" priority=10 }]
 [{oxscript add="$( '#content' ).oxArticleBox();"}]
@@ -15,9 +13,11 @@
 [{include file="widget/product/list.tpl" type=$oView->getListDisplayType() listId="productList" products=$oView->getHotOfferList()}]
 
 [{include file="widget/locator/listlocator.tpl" locator=$oView->getPageNavigationLimitedBottom() place="bottom"}]
-<br />
-<br />
-<br />
+[{ else }]
+
+<h2>[{ oxmultilang ident="HOTOFFERS_NO_PRODUCTS"}]</h2>
+
 [{/if}]
 [{insert name="oxid_tracker"}]
-[{ /capture }]
+[{/capture}]
+[{include file="layout/page.tpl" sidebar="Left"}]

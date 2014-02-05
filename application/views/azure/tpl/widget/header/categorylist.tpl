@@ -80,6 +80,9 @@
             </ul>
         </li>
     [{/if}]
+    [{ block name="hot_offer_link" }]
+    
+    [{ /block }]
 </ul>
 [{oxscript widget=$oView->getClassName()}]
 [{oxstyle widget=$oView->getClassName()}]
